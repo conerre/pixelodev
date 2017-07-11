@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="ar.com.pixelo.entregablemercadoelo.SegundaActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/detalleImagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/computadora_asus"
+            android:layout_gravity="left"
+            />
+
+
+        <TextView
+            android:id="@+id/detalleNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="25sp"
+            android:gravity="center"
+            android:text="Computadora Asus"
+            android:layout_toRightOf="@id/detalleImagen"
+            />
+
+
+        <TextView
+            android:id="@+id/detallePrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:shadowColor="@color/colorAccent"
+            android:layout_gravity="center"
+            android:text="$800"
+            android:layout_toRightOf="@id/detalleImagen"
+            android:layout_below="@id/detalleNombre"
+            android:gravity="center"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/detalleItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fondo"
+        android:textSize="18sp"
+        android:textColor="@color/blanco"
+        android:textStyle="italic"
+        android:text="SArazadsad asadsdsf lsfjsld "
+        android:padding="15sp"
+        />
+
+
+</LinearLayout>

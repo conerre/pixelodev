@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootResto"
+
+    tools:context="ar.com.pixelo.entregablerestaurants.FragmentResto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+        <ImageView
+            android:id="@+id/fotoConteiner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/central"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:id="@+id/restoName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/negroTransp"
+            android:padding="10sp"
+            android:text="Central"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:layout_above="@+id/restoCity"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lima, Peru"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/restoCity"
+            android:paddingLeft="20sp"
+            android:background="@color/negroTransp"/>
+    </RelativeLayout>
+</FrameLayout>

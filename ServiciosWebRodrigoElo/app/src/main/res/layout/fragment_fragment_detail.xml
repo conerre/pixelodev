@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ar.com.pixelo.elo_json_entregable.View.Fragment.FragmentDetail"
+    android:background="@android:color/black"
+    >
+
+
+    <ImageView
+        android:id="@+id/cover600"
+        android:layout_width="match_parent"
+        android:layout_height="291dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_cancel_black_600"/>
+
+    <TextView
+        android:id="@+id/titleDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo no disponible"
+        android:textColor="@android:color/white"
+        android:textSize="23sp"
+        android:layout_below="@+id/cover600"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5sp"
+        />
+    <TextView
+        android:id="@+id/idDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Id: no disponible"
+        android:layout_below="@id/titleDetail"
+        android:textSize="15sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="5sp"
+        />
+    <TextView
+        android:id="@+id/idAlbumDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Album Id: no dispobible"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/idDetail"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="5sp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EntregableRestaurants</string>
+    <string name="menu_1">Restaurants</string>
+    <string name="menu_2">About Us</string>
+    <string name="menu_3">Recetas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Autor">Creado por Rodrigo Elo</string>
+    <string name="mail">rodrigoelo@gmail.com</string>
+    <string name="title_activity_about_us">AboutUs</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

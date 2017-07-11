@@ -1,0 +1,50 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/RecetaDetalleLayout"
+    tools:context="ar.com.pixelo.entregablerestaurants.FragmentRecetaDetalle"
+    >
+
+<ImageView
+    android:id="@+id/imagenRecetaDetalle"
+    android:layout_width="450dp"
+    android:layout_height="450dp"
+    android:src="@drawable/guiso"
+    android:layout_gravity="center_horizontal" />
+<TextView
+    android:id="@+id/tituloRecetaDetalle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/negro"
+    android:text="Guiso de lentejas"
+    android:textColor="#ffffff"
+    android:textSize="30sp"
+    android:layout_gravity="center_horizontal"
+    />
+
+    <TextView
+        android:id="@+id/ingredientesRecetaDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:padding="3sp"
+        />
+   <TextView
+       android:id="@+id/procedimientoRecetaDetalle"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="20sp"
+       android:padding="3sp"/>
+</LinearLayout>
+</ScrollView>

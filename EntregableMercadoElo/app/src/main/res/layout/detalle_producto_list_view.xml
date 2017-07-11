@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2sp"
+    >
+    <ImageView
+        android:id="@+id/fotosprod"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:src="@drawable/computadora_asus"
+        android:scaleType="fitStart"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/precioprod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$8000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textAlignment="viewEnd"/>
+
+        <TextView
+            android:id="@+id/nombreprod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notebook Asus "
+            android:textSize="20sp"
+            android:textAlignment="viewEnd"/>
+
+    </LinearLayout>
+</FrameLayout>

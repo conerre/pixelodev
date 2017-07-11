@@ -1,0 +1,32 @@
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ar.com.pixelo.entregablerestaurants.FragmentAbout"
+    android:background="@color/negro"
+        android:gravity="center"
+    >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:gravity="center_horizontal"
+            android:text="@string/Autor"
+            android:textColor="#ffffff"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:gravity="center_horizontal"
+            android:text="@string/mail"
+            android:linksClickable="true"
+            android:autoLink="email"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_below="@id/textView2"
+            />
+
+    </RelativeLayout>
