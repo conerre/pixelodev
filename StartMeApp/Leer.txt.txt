@@ -1,0 +1,5 @@
+Trabajo practico integrador del curso de desarrollador Mobile Android en DigitalHouse 2017.
+App realizada en equipo con Felix Tousteau, Ronald Quinteros y Rodrigo Elo.
+
+Caracteristicas principales:
+Se trata de una app de musica basada en la API de Dezeer, realiza streaming del audio en un servicio de Media player pudiendo escucharse en segundo plano, ademas cuenta con login en redes sociales y validacion en Firebase y tiene una base de datos a nivel local para guardar favoritos.
