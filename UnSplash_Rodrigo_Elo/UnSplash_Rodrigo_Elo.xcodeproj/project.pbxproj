@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B120848020E970350043DE43 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B120847F20E970350043DE43 /* UIColor.swift */; };
+		B120848220E984550043DE43 /* PhotoStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = B120848120E984550043DE43 /* PhotoStats.swift */; };
+		B120848420E9CFEE0043DE43 /* StatsDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = B120848320E9CFEE0043DE43 /* StatsDownload.swift */; };
+		B120848620E9D0A40043DE43 /* StatsLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = B120848520E9D0A40043DE43 /* StatsLike.swift */; };
+		B120848820E9D1570043DE43 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B120848720E9D1560043DE43 /* StatsView.swift */; };
+		B120848A20E9E3C90043DE43 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B120848920E9E3C90043DE43 /* UserDetailViewController.swift */; };
+		B16E4DEB20E3E5560055DD51 /* filmcamera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B16E4DE920E3E5560055DD51 /* filmcamera.jpg */; };
+		B16E4DEC20E3E5560055DD51 /* Unsplash-At-RollZign-640x427.png in Resources */ = {isa = PBXBuildFile; fileRef = B16E4DEA20E3E5560055DD51 /* Unsplash-At-RollZign-640x427.png */; };
+		B16E4DEE20E3F0270055DD51 /* ContentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E4DED20E3F0270055DD51 /* ContentTableViewController.swift */; };
+		B16E4DF020E405EA0055DD51 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E4DEF20E405EA0055DD51 /* TableViewCell.swift */; };
+		B16E4DF220E40F3C0055DD51 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E4DF120E40F3C0055DD51 /* DetailViewController.swift */; };
+		B16E4DF420E413DE0055DD51 /* PhotoResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E4DF320E413DE0055DD51 /* PhotoResult.swift */; };
+		B16E4DF620E41BF00055DD51 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E4DF520E41BF00055DD51 /* User.swift */; };
+		B16E4DF820E41C620055DD51 /* PhotoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E4DF720E41C620055DD51 /* PhotoDao.swift */; };
+		B16E4DFA20E424E50055DD51 /* PhotoUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E4DF920E424E50055DD51 /* PhotoUrls.swift */; };
+		B16E4DFC20E427EB0055DD51 /* UserUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E4DFB20E427EB0055DD51 /* UserUrls.swift */; };
+		B16E4DFE20E441300055DD51 /* photoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E4DFD20E441300055DD51 /* photoService.swift */; };
+		B1BFF10A20E3DD5D00861907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BFF10920E3DD5D00861907 /* AppDelegate.swift */; };
+		B1BFF10C20E3DD5D00861907 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BFF10B20E3DD5D00861907 /* ViewController.swift */; };
+		B1BFF10F20E3DD5D00861907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1BFF10D20E3DD5D00861907 /* Main.storyboard */; };
+		B1BFF11120E3DD5E00861907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1BFF11020E3DD5E00861907 /* Assets.xcassets */; };
+		B1BFF11420E3DD5E00861907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1BFF11220E3DD5E00861907 /* LaunchScreen.storyboard */; };
+		DDF20DE40F2E580A5511B307 /* Pods_UnSplash_Rodrigo_Elo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9567759AC464E4FD042206BC /* Pods_UnSplash_Rodrigo_Elo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EF2A18488B8ADA068EBCFB1 /* Pods-UnSplash_Rodrigo_Elo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnSplash_Rodrigo_Elo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnSplash_Rodrigo_Elo/Pods-UnSplash_Rodrigo_Elo.debug.xcconfig"; sourceTree = "<group>"; };
+		9567759AC464E4FD042206BC /* Pods_UnSplash_Rodrigo_Elo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnSplash_Rodrigo_Elo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B120847F20E970350043DE43 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		B120848120E984550043DE43 /* PhotoStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStats.swift; sourceTree = "<group>"; };
+		B120848320E9CFEE0043DE43 /* StatsDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsDownload.swift; sourceTree = "<group>"; };
+		B120848520E9D0A40043DE43 /* StatsLike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsLike.swift; sourceTree = "<group>"; };
+		B120848720E9D1560043DE43 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		B120848920E9E3C90043DE43 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		B16E4DE920E3E5560055DD51 /* filmcamera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = filmcamera.jpg; sourceTree = "<group>"; };
+		B16E4DEA20E3E5560055DD51 /* Unsplash-At-RollZign-640x427.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unsplash-At-RollZign-640x427.png"; sourceTree = "<group>"; };
+		B16E4DED20E3F0270055DD51 /* ContentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewController.swift; sourceTree = "<group>"; };
+		B16E4DEF20E405EA0055DD51 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B16E4DF120E40F3C0055DD51 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B16E4DF320E413DE0055DD51 /* PhotoResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoResult.swift; sourceTree = "<group>"; };
+		B16E4DF520E41BF00055DD51 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B16E4DF720E41C620055DD51 /* PhotoDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDao.swift; sourceTree = "<group>"; };
+		B16E4DF920E424E50055DD51 /* PhotoUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoUrls.swift; sourceTree = "<group>"; };
+		B16E4DFB20E427EB0055DD51 /* UserUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUrls.swift; sourceTree = "<group>"; };
+		B16E4DFD20E441300055DD51 /* photoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoService.swift; sourceTree = "<group>"; };
+		B1BFF10620E3DD5D00861907 /* UnSplash_Rodrigo_Elo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnSplash_Rodrigo_Elo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BFF10920E3DD5D00861907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1BFF10B20E3DD5D00861907 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1BFF10E20E3DD5D00861907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1BFF11020E3DD5E00861907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1BFF11320E3DD5E00861907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1BFF11520E3DD5E00861907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD49FABD70449CEF5FA76C58 /* Pods-UnSplash_Rodrigo_Elo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnSplash_Rodrigo_Elo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnSplash_Rodrigo_Elo/Pods-UnSplash_Rodrigo_Elo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1BFF10320E3DD5D00861907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF20DE40F2E580A5511B307 /* Pods_UnSplash_Rodrigo_Elo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1BFF0FD20E3DD5D00861907 = {
+			isa = PBXGroup;
+			children = (
+				B1BFF10820E3DD5D00861907 /* UnSplash_Rodrigo_Elo */,
+				B1BFF10720E3DD5D00861907 /* Products */,
+				D11767C99646B04B8D19A360 /* Pods */,
+				E9BA028FE7F3BC9B553C0D36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1BFF10720E3DD5D00861907 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1BFF10620E3DD5D00861907 /* UnSplash_Rodrigo_Elo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1BFF10820E3DD5D00861907 /* UnSplash_Rodrigo_Elo */ = {
+			isa = PBXGroup;
+			children = (
+				B1BFF11F20E3DFB600861907 /* main */,
+				B1BFF11C20E3DE9B00861907 /* model */,
+				B1BFF11D20E3DEDD00861907 /* view */,
+				B1BFF12120E3DFD300861907 /* service */,
+				B1BFF12020E3DFC100861907 /* dao */,
+				B1BFF11E20E3DEEE00861907 /* viewController */,
+				B1BFF11B20E3DE7C00861907 /* resource */,
+			);
+			path = UnSplash_Rodrigo_Elo;
+			sourceTree = "<group>";
+		};
+		B1BFF11B20E3DE7C00861907 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				B16E4DE920E3E5560055DD51 /* filmcamera.jpg */,
+				B16E4DEA20E3E5560055DD51 /* Unsplash-At-RollZign-640x427.png */,
+				B1BFF11220E3DD5E00861907 /* LaunchScreen.storyboard */,
+				B1BFF11020E3DD5E00861907 /* Assets.xcassets */,
+				B1BFF10D20E3DD5D00861907 /* Main.storyboard */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		B1BFF11C20E3DE9B00861907 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B16E4DF320E413DE0055DD51 /* PhotoResult.swift */,
+				B16E4DFB20E427EB0055DD51 /* UserUrls.swift */,
+				B16E4DF520E41BF00055DD51 /* User.swift */,
+				B16E4DF920E424E50055DD51 /* PhotoUrls.swift */,
+				B120848120E984550043DE43 /* PhotoStats.swift */,
+				B120848320E9CFEE0043DE43 /* StatsDownload.swift */,
+				B120848520E9D0A40043DE43 /* StatsLike.swift */,
+				B120848720E9D1560043DE43 /* StatsView.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B1BFF11D20E3DEDD00861907 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B16E4DEF20E405EA0055DD51 /* TableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B1BFF11E20E3DEEE00861907 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				B1BFF10B20E3DD5D00861907 /* ViewController.swift */,
+				B16E4DED20E3F0270055DD51 /* ContentTableViewController.swift */,
+				B16E4DF120E40F3C0055DD51 /* DetailViewController.swift */,
+				B120848920E9E3C90043DE43 /* UserDetailViewController.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		B1BFF11F20E3DFB600861907 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				B1BFF10920E3DD5D00861907 /* AppDelegate.swift */,
+				B1BFF11520E3DD5E00861907 /* Info.plist */,
+				B120847F20E970350043DE43 /* UIColor.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		B1BFF12020E3DFC100861907 /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				B16E4DF720E41C620055DD51 /* PhotoDao.swift */,
+			);
+			name = dao;
+			sourceTree = "<group>";
+		};
+		B1BFF12120E3DFD300861907 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				B16E4DFD20E441300055DD51 /* photoService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		D11767C99646B04B8D19A360 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EF2A18488B8ADA068EBCFB1 /* Pods-UnSplash_Rodrigo_Elo.debug.xcconfig */,
+				FD49FABD70449CEF5FA76C58 /* Pods-UnSplash_Rodrigo_Elo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9BA028FE7F3BC9B553C0D36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9567759AC464E4FD042206BC /* Pods_UnSplash_Rodrigo_Elo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1BFF10520E3DD5D00861907 /* UnSplash_Rodrigo_Elo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1BFF11820E3DD5E00861907 /* Build configuration list for PBXNativeTarget "UnSplash_Rodrigo_Elo" */;
+			buildPhases = (
+				B12B427E29FC6DE99AF3E1F8 /* [CP] Check Pods Manifest.lock */,
+				B1BFF10220E3DD5D00861907 /* Sources */,
+				B1BFF10320E3DD5D00861907 /* Frameworks */,
+				B1BFF10420E3DD5D00861907 /* Resources */,
+				C172C2FFFF1BE499B4530A5B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnSplash_Rodrigo_Elo;
+			productName = UnSplash_Rodrigo_Elo;
+			productReference = B1BFF10620E3DD5D00861907 /* UnSplash_Rodrigo_Elo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1BFF0FE20E3DD5D00861907 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Rodrigo Elo";
+				TargetAttributes = {
+					B1BFF10520E3DD5D00861907 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B1BFF10120E3DD5D00861907 /* Build configuration list for PBXProject "UnSplash_Rodrigo_Elo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1BFF0FD20E3DD5D00861907;
+			productRefGroup = B1BFF10720E3DD5D00861907 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1BFF10520E3DD5D00861907 /* UnSplash_Rodrigo_Elo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1BFF10420E3DD5D00861907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BFF11420E3DD5E00861907 /* LaunchScreen.storyboard in Resources */,
+				B16E4DEC20E3E5560055DD51 /* Unsplash-At-RollZign-640x427.png in Resources */,
+				B1BFF11120E3DD5E00861907 /* Assets.xcassets in Resources */,
+				B16E4DEB20E3E5560055DD51 /* filmcamera.jpg in Resources */,
+				B1BFF10F20E3DD5D00861907 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B12B427E29FC6DE99AF3E1F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnSplash_Rodrigo_Elo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C172C2FFFF1BE499B4530A5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UnSplash_Rodrigo_Elo/Pods-UnSplash_Rodrigo_Elo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/UIColor_Hex_Swift/UIColor_Hex_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIColor_Hex_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnSplash_Rodrigo_Elo/Pods-UnSplash_Rodrigo_Elo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1BFF10220E3DD5D00861907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B120848A20E9E3C90043DE43 /* UserDetailViewController.swift in Sources */,
+				B16E4DF420E413DE0055DD51 /* PhotoResult.swift in Sources */,
+				B120848020E970350043DE43 /* UIColor.swift in Sources */,
+				B1BFF10C20E3DD5D00861907 /* ViewController.swift in Sources */,
+				B16E4DFE20E441300055DD51 /* photoService.swift in Sources */,
+				B120848820E9D1570043DE43 /* StatsView.swift in Sources */,
+				B16E4DF020E405EA0055DD51 /* TableViewCell.swift in Sources */,
+				B16E4DF220E40F3C0055DD51 /* DetailViewController.swift in Sources */,
+				B16E4DFA20E424E50055DD51 /* PhotoUrls.swift in Sources */,
+				B120848420E9CFEE0043DE43 /* StatsDownload.swift in Sources */,
+				B16E4DEE20E3F0270055DD51 /* ContentTableViewController.swift in Sources */,
+				B1BFF10A20E3DD5D00861907 /* AppDelegate.swift in Sources */,
+				B120848220E984550043DE43 /* PhotoStats.swift in Sources */,
+				B16E4DF620E41BF00055DD51 /* User.swift in Sources */,
+				B16E4DFC20E427EB0055DD51 /* UserUrls.swift in Sources */,
+				B120848620E9D0A40043DE43 /* StatsLike.swift in Sources */,
+				B16E4DF820E41C620055DD51 /* PhotoDao.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1BFF10D20E3DD5D00861907 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1BFF10E20E3DD5D00861907 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1BFF11220E3DD5E00861907 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1BFF11320E3DD5E00861907 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1BFF11620E3DD5E00861907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1BFF11720E3DD5E00861907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1BFF11920E3DD5E00861907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF2A18488B8ADA068EBCFB1 /* Pods-UnSplash_Rodrigo_Elo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/UnSplash_Rodrigo_Elo/main/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pixelo.com.ar.UnSplash-Rodrigo-Elo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1BFF11A20E3DD5E00861907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD49FABD70449CEF5FA76C58 /* Pods-UnSplash_Rodrigo_Elo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/UnSplash_Rodrigo_Elo/main/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pixelo.com.ar.UnSplash-Rodrigo-Elo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1BFF10120E3DD5D00861907 /* Build configuration list for PBXProject "UnSplash_Rodrigo_Elo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BFF11620E3DD5E00861907 /* Debug */,
+				B1BFF11720E3DD5E00861907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1BFF11820E3DD5E00861907 /* Build configuration list for PBXNativeTarget "UnSplash_Rodrigo_Elo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BFF11920E3DD5E00861907 /* Debug */,
+				B1BFF11A20E3DD5E00861907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1BFF0FE20E3DD5D00861907 /* Project object */;
+}

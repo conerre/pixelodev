@@ -1,0 +1,6 @@
+framework module Pods_UnSplash_Rodrigo_Elo {
+  umbrella header "Pods-UnSplash_Rodrigo_Elo-umbrella.h"
+
+  export *
+  module * { export * }
+}
